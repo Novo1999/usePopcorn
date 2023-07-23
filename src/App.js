@@ -227,7 +227,6 @@ function Main({ children }) {
 
 function Box({ children }) {
   const [isOpen, setIsOpen] = useState(true);
-  const [isOpen2, setIsOpen2] = useState(true);
 
   return (
     <div className="box">
